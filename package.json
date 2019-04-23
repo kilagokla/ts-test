@@ -1,0 +1,15 @@
+{
+  "name": "ts-test",
+  "scripts": {
+    "tsc": "tsc",
+    "webpack": "webpack",
+    "build": "npm run webpack --config webpack.config.js",
+    "transpile": "npm run tsc"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "tsc": "^1.20150623.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
